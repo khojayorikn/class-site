@@ -1,11 +1,14 @@
 body {
   margin:0;
   padding:0;
+  background: #ffffba;
+}
+.main {
   font-family: trajan-sans-pro, sans-serif;
 font-style: normal;
 font-weight: 200;
-  background: #ffffba;
 }
+
 
 .articletext {
 font-family: "Tahoma",sans-serif;
@@ -58,4 +61,15 @@ list-style: none;
 
 ul {
   list-style: none;
+}
+.poemtitle {
+  width:100px;
+  height:20px;
+  padding: 4px;
+  text-align: center;
+  margin-bottom: 5px;
+background: red;
+text-align: center;
+margin-left: 40px;
+font-weight: bold;
 }
