@@ -1,7 +1,9 @@
 body {
   margin:0;
   padding:0;
-  font-family: "Card characters", sans-serif;
+  font-family: trajan-sans-pro, sans-serif;
+font-style: normal;
+font-weight: 200;
   background: #ffffba;
 }
 
@@ -48,7 +50,9 @@ padding: 4px;
 text-align: center;
 margin-bottom: 5px;
 border-radius: 10px;
-font-family: "card characters", sans-serif;
+font-family: trajan-sans-pro, sans-serif;
+font-style: normal;
+font-weight: bold;
 list-style: none;
 }
 
