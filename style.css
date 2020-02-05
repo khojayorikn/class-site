@@ -44,29 +44,17 @@ background:black;
 transition: 1s ease;
 color:yellow;
 
+
 }
 a:hover {
   color: red;
 }
 
-li {
-  background: skyblue;
-  width: 100px;
-  height: 20px;
-  padding: 4px;
-  text-align: center;
-  margin-bottom: 5px;
-  border-radius: 10px;
-  font-family: trajan-sans-pro, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  list-style: none;
-}
 
-.poembutton:hover {
+.poem:hover {
   background: yellow;
   transition: 1s ease;
-  width: 200px;
+  width: 75px;
 }
 
 ul {
@@ -84,6 +72,12 @@ ul {
   margin-left: 40px;
   font-weight: bold;
 }
+.poemlist {
+display: none;
+/* display: block; */
+margin-top: 0;
+padding-top:10px;
+}
 
 .poemtitle:hover {
   background: blue;
@@ -91,16 +85,53 @@ ul {
   color: white;
 }
 
-.poemtitle:hover .poembutton {
-  /* display: block; */
-  opacity: 1;
-  position: fixed;
-  transition: 1s ease;
+
+.poemtitle:hover .poemlist {
+display: block;
+}
+
+.articlebutton {
+font-family: trajan-sans-pro, sans-serif;
+  display:block;
   background:red;
+  width:100px;
+  padding: 4px;
+  text-align: center;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .articlebutton:hover {
+  transition: .5s ease;
   background: palegreen;
-  width: 200px;
-  transition: 1s ease;
+
+}
+
+.homebutton {
+  background: skyblue;
+  width: 50px;
+  height: 20px;
+  padding: 4px;
+  text-align: center;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  font-family: trajan-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  list-style: none;
+
+}
+
+.poem {
+display: block;
+  background: skyblue;
+  width:50px;
+  padding: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: trajan-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: bold;
 }
