@@ -39,18 +39,28 @@ body {
   justify-content: center;
   margin: 0;
 }
+
 .topbox:hover {
-background:black;
-transition: 1s ease;
-color:yellow;
-
-
+  background: black;
+  transition: 1s ease;
+  color: yellow;
 }
+
 a:hover {
   color: red;
 }
-
-
+.poem {
+  display: block;
+  background: skyblue;
+  width: 50px;
+  padding: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: trajan-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
 .poem:hover {
   background: yellow;
   transition: 1s ease;
@@ -72,29 +82,29 @@ ul {
   margin-left: 40px;
   font-weight: bold;
 }
-.poemlist {
-display: none;
-/* display: block; */
-margin-top: 0;
-padding-top:10px;
-}
-
 .poemtitle:hover {
   background: blue;
   transition: 1s ease-in-out;
   color: white;
 }
+.poemlist {
+  display: none;
+  /* display: block; */
+  margin-top: 0;
+  padding-top: 10px;
+}
+
 
 
 .poemtitle:hover .poemlist {
-display: block;
+  display: block;
 }
 
 .articlebutton {
-font-family: trajan-sans-pro, sans-serif;
-  display:block;
-  background:red;
-  width:100px;
+  font-family: trajan-sans-pro, sans-serif;
+  display: block;
+  background: red;
+  width: 100px;
   padding: 4px;
   text-align: center;
   margin-left: 40px;
@@ -105,7 +115,6 @@ font-family: trajan-sans-pro, sans-serif;
 .articlebutton:hover {
   transition: .5s ease;
   background: palegreen;
-
 }
 
 .homebutton {
@@ -120,18 +129,30 @@ font-family: trajan-sans-pro, sans-serif;
   font-style: normal;
   font-weight: bold;
   list-style: none;
-
 }
 
-.poem {
-display: block;
-  background: skyblue;
-  width:50px;
-  padding: 5px;
-  margin-bottom: 5px;
-  text-align: center;
-  border-radius: 10px;
-  font-family: trajan-sans-pro, sans-serif;
-  font-style: normal;
-  font-weight: bold;
+.gear {
+  position: fixed;
+bottom: 0%;
+right:0%;
+width: 5%;
+animation: 2s rotate infinite linear;
+}
+
+@keyframes rotate {
+  0% {transform:rotate(0deg);}
+  100% {transform: rotate(365deg);}
+}
+
+.work {
+  position: absolute;
+  bottom: 0%;
+  right: 10%;
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {transform: scale(1);}
+  100% {transform: scale(1.5);}
+
 }
