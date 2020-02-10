@@ -98,10 +98,11 @@ margin-bottom: 200px;
 .title {
 background: #24324F;
 position: fixed;
+top:0%;
 width: 100%;
 display: flex;
 align-items: center;
-height: 150px;
+height: 175px;
 justify-content: center;
 }
 
