@@ -170,7 +170,8 @@ animation: 1s humanchange forwards;
 .buttons {
 display: flex;
 flex-direction: row;
-
+position: absolute;
+z-index: 99;
 }
 .homebutton {
   background: skyblue;

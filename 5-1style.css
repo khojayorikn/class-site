@@ -128,7 +128,8 @@ animation: 1s godchange forwards;
 .buttons {
 display: flex;
 flex-direction: row;
-
+position: absolute;
+z-index: 99;
 }
 
 .homebutton {
