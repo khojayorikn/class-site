@@ -1,7 +1,7 @@
 body {
   margin:0;
   padding:0;
-  background: #24324F;
+  background: #F2B279;
   font-family: worker,serif;
 font-weight: 700;
 font-style: normal;
@@ -106,7 +106,7 @@ margin-bottom: 200px;
 }
 
 .title {
-background: #24324F;
+background: #F2B279;
 position: fixed;
 width: 100%;
 display: flex;
@@ -166,4 +166,22 @@ animation: 1s humanchange forwards;
 0% {}
 100% {color:#ECE62F;}
 
+}
+.buttons {
+display: flex;
+flex-direction: row;
+
+}
+.homebutton {
+  background: skyblue;
+  width: 50px;
+  height: 20px;
+  padding: 4px;
+  text-align: center;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  font-family: trajan-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  list-style: none;
 }

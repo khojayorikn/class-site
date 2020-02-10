@@ -96,3 +96,8 @@ margin-top: 200px;
 margin-bottom: 200px;
 
 }
+.buttons {
+display: flex;
+flex-direction: row;
+
+}

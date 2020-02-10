@@ -156,3 +156,8 @@ animation: 2s rotate infinite linear;
   100% {transform: scale(1.5);}
 
 }
+.buttons {
+display: flex;
+flex-direction: row;
+
+}
