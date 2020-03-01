@@ -197,3 +197,55 @@ flex-direction: row;
   transition: .5s ease;
   background: palegreen;
 }
+
+
+.responsivenesstitle {
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+  background: red;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+
+.responsivenesslist {
+  display: none;
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+.responsivenesstitle:hover .responsivenesslist {
+  display: block;
+}
+
+
+.responsivenessbutton {
+  font-family: trajan-sans-pro, sans-serif;
+  display: block;
+  background: red;
+  width: 40px;
+  padding: 4px;
+  text-align: center;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.responsivenessbutton:hover {
+
+  transition: .5s ease;
+  background: palegreen;
+}
+
+.responsivenesstitle:hover {
+
+  background: blue;
+  transition: 1s ease-in-out;
+  color: white;
+}
