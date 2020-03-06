@@ -175,6 +175,21 @@ flex-direction: row;
   font-weight: bold;
 }
 
+.storybutton {
+  font-family: trajan-sans-pro, sans-serif;
+  display: block;
+  background: red;
+  width: 100px;
+  padding: 4px;
+  text-align: center;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.storybutton:hover {
+  transition: .5s ease;
+  background: palegreen;
+}
 .animationbutton {
   font-family: trajan-sans-pro, sans-serif;
   display: block;
