@@ -264,3 +264,43 @@ flex-direction: row;
   transition: 1s ease-in-out;
   color: white;
 }
+
+
+.portfoliobutton {
+  font-family: trajan-sans-pro, sans-serif;
+  display: block;
+  background: red;
+  width: 100px;
+  padding: 4px;
+  text-align: center;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.portfoliobutton:hover {
+
+  background: blue;
+  transition: 1s ease-in-out;
+  color: white;
+}
+
+
+.javabutton {
+  font-family: trajan-sans-pro, sans-serif;
+  display: block;
+  background: red;
+  width: 100px;
+  padding: 4px;
+  text-align: center;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.javabutton:hover {
+
+  background: blue;
+  transition: 1s ease-in-out;
+  color: white;
+}
