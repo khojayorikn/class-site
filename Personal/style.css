@@ -1,0 +1,43 @@
+body {
+  background: lightblue;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.menubutton {
+  width:20vw;
+  position: absolute;
+}
+
+
+
+
+
+
+
+/* .menutext1 {
+  position: absolute;
+  left:10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  top:80px;
+}
+.cls-1 {
+  fill: white;
+  position: absolute;
+  left:0;
+  top:20px;
+}
+
+.homebutton {
+  width:10vw;
+  height:10vh;
+  font-size: 20px;
+}
+
+.homebutton:hover {
+  cursor: pointer;
+} */
