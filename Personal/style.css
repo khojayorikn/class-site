@@ -1,43 +1,118 @@
 body {
-  background: lightblue;
+  background: black;
   padding: 0;
-  margin: 0;
+  overflow-y: hidden;
+  z-index: -2;
 }
 
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  height:300px;
+  position: absolute;
+  top:25%;
+  left:10%;
+}
 
+.menutext {
+  font-family: sans-serif;
+  font-size: 60pt;
+  fill:black;
+}
+
+.menubutton:hover {
+  fill:white;
+  transition: fill .2s;
+}
 
 .menubutton {
-  width:20vw;
-  position: absolute;
+  margin-left: 20px;
+  fill:red;
 }
 
 
+.bg {
+  position:absolute;
+  right:0;
+  height:100vh;
+  z-index: -2;
+}
 
-
-
-
-
-/* .menutext1 {
-  position: absolute;
-  left:10px;
+.name {
+  color:white;
   font-family: sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-  top:80px;
+  font-size: 80pt;
+  position: absolute;
+  left:10%;
+  z-index: 2;
 }
-.cls-1 {
-  fill: white;
+
+
+.box {
   position: absolute;
   left:0;
-  top:20px;
+  z-index: -1;
+  background: white;
+  width:300px;
+  height:91.09px;
 }
 
-.homebutton {
-  width:10vw;
-  height:10vh;
-  font-size: 20px;
+
+.one{
+  background-image: url(img.jpg);
 }
 
-.homebutton:hover {
-  cursor: pointer;
-} */
+.two{
+  background-image: url(img2.jpg);
+}
+
+.three{
+  background-image: url(img3.jpg);
+}
+/* Add padding and border to inner content
+for better animation effect */
+
+
+.about {
+  position: relative;
+}
+
+.portfolio {
+  position: relative;
+}
+
+.contact {
+  position: relative;
+}
+
+.shape {
+  position: absolute;
+}
+
+
+@media screen and (max-width:800px){
+  .bg {
+    bottom:0;
+    right:0;
+  }
+  .menu {
+    top:40%;
+  }
+  .name {
+left:0;
+
+  }
+.shape {
+width:300px;
+
+}
+.box {
+  width:400px;
+  height:68px;
+}
+}
+.web {
+  font-size: 40pt;
+}
