@@ -1058,11 +1058,19 @@ p {
 }
 
 .eye {
-  width: 50%;
+  width: 25%;
   position: absolute;
   z-index: -2;
+  right:20%;
 }
-
+.eye2 {
+  width: 25%;
+  position: absolute;
+  z-index: -2;
+  left:20%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
 .heavenfade {
   background: rgb(0, 0, 0);
   background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(7, 8, 110, 0) 100%);
