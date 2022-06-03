@@ -199,8 +199,7 @@ p {
     justify-content: center;
     align-items: center;
     z-index: -1;
-    background-image: url(oldman2.svg);
-    background-size: cover;
+
   }
 
   .p14 {
@@ -392,7 +391,7 @@ p {
   animation: boatrock 6s infinite linear alternate;
   position: absolute;
   left: 42%;
-  bottom: 38%;
+  bottom: 37%;
   z-index: -2;
 }
 
@@ -407,7 +406,7 @@ p {
 }
 
 .threetext {
-  color: lightblue;
+  color: white;
   text-shadow: 2px 2px 5px black;
 }
 
@@ -455,12 +454,14 @@ p {
   }
 }
 
+
+
 .oldman {
   height: 400px;
   width: auto;
   position: absolute;
   right: -5%;
-  bottom: 0%;
+  bottom: 00%;
 }
 
 .raincontainer {
@@ -980,7 +981,7 @@ p {
 }
 
 .thirteentext {
-  color: darkgray;
+  color: white;
   text-shadow: 5px 5px 0px black;
 }
 
@@ -1091,18 +1092,28 @@ p {
   position: absolute;
   z-index: -2;
   bottom: 0;
+  left:10%;
+}
+.oldhand2 {
+  width: 25%;
+  position: absolute;
+  z-index: -2;
+  bottom: 0;
+  right:10%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .twentyonetwotext {
   text-shadow: 5px 5px 5px black;
 }
 
-.fist {
-  width: 25%;
+.tonic {
+  width: 75px;
   position: absolute;
   z-index: -2;
-  bottom: -10%;
-  right: 0;
+  bottom: -5%;
+  ;
 }
 
 .valley2 {
@@ -1194,3 +1205,30 @@ p {
   position: absolute;
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(48,16,241,1) 25%, rgba(52,59,106,1) 75%, rgba(48,16,241,0) 100%);
+}
+
+.oldmanwalking2 {
+    height: 300px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    z-index: -2;
+  }
+.oldmanwalking3 {
+    height: 300px;
+    position: absolute;
+    left: 10%;
+    bottom: 40%;
+    z-index: -2;
+  }
+.oldmanwalking4 {
+    height: 300px;
+    position: absolute;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    right: 10%;
+    bottom: 70%;
+    z-index: -2;
+  }
